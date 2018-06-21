@@ -53,10 +53,10 @@ app.post('/api/submitquery', function (req, res) {
 	else {
 		try {
 			//Mailgun API key
-			var api_key = '2901f6eaf92caac4933e02024f844fc1-0470a1f7-531bc163';
+			var api_key = 'bf72f1a6032f78f09f39953b651ed9da-0470a1f7-ec139369';
 
 			//Domain setup in mailgun
-			var domain = 'sandboxe34bce2f316c4bbf80771a11b9f137fc.mailgun.org';
+			var domain = 'sandbox3d0006e1c89945fa874d12439d85903b.mailgun.org';
 
 			//from email address
 			var from_who = 'gauravdarak123@yahoo.com';
